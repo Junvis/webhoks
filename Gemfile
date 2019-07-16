@@ -9,6 +9,8 @@ group :development, :test do
 	gem 'rspec_api_test'
 	gem 'pry-nav'
 	gem 'pry'
+	gem mysql
+	gem 'therubyracer', platforms: :ruby
 end
 group :production do
 	gem 'pg'
